@@ -40,47 +40,106 @@ li{
     margin-top: 100px;
 }
 
+.container-b{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 
 .box{
     width: 400px;
     height: 700px;
-    background-color: red;
     margin: 0 20px;
-}
-
-.a{
-    background-image: url(../img/1.webp);
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
+.a{
+    background-image: url(../img/1.webp);
+}
+
+.b{
+    background-image: url(../img/2.webp);
+}
+
+.c{
+    background-image: url(../img/3.webp);
+}
+
+.d{
+    background-image: url(../img/4.webp);
+}
+
+.e{
+    background-image: url(../img/5.webp);
+}
+
+.f{
+    background-image: url(../img/6.webp);
+}
+.etichette{
+    height: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 
 .sconto{
-    position: absolute;
-    left: 5px;
-    bottom: 10px;
+    margin-right: 10px;
     background-color: red;
     color: white;
+    font-weight: bold;
+    font-size: 12px;
     border-radius: 10px;
-    padding: 10px 10px;
-    /* font-size: 30px; */
+    padding: 8px 8px;
 
 }
 
 .sostenibilità{
-    position: absolute;
-    left: 20px;
-    bottom: 10px;
-    background-color: greenyellow;
+    background-color: green;
     color: white;
+    font-weight: bold;
+    font-size: 12px;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 8px 8px;
 
 }
 
 .heart{
     position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.dettaglio{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 20px;
+    
+}
+
+.marchio{
+    
+}
+
+.modello{
+    
+}
+
+.pnew{
+    
+}
+
+.pold{
+
 }
 
 footer{
