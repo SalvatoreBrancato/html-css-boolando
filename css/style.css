@@ -46,7 +46,7 @@ li{
     justify-content: center;
     align-items: flex-start;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 
@@ -119,11 +119,7 @@ li{
 }
 
 .dettaglio{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0 20px;
-    
+   margin-top: 40px;    
 }
 
 .marchio{
@@ -131,20 +127,23 @@ li{
 }
 
 .modello{
-    
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .pnew{
-    
+    color: red;
+    margin-right: 5px;
+    font-weight: bold;
 }
 
 .pold{
-
+    text-decoration: line-through;
 }
 
 footer{
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -155,7 +154,7 @@ footer{
 
 h2, h3{
     color: white;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 .icone, .info{
