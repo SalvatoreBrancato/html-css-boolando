@@ -16,6 +16,11 @@
     z-index: 1;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 li{
     display: inline-block;
     margin: 0 10px;
@@ -63,25 +68,50 @@ li{
     background-image: url(../img/1.webp);
 }
 
+.a:hover{
+    background-image: url(../img/1b.webp);
+}
+
 .b{
     background-image: url(../img/2.webp);
+}
+
+.b:hover{
+    background-image: url(../img/2b.webp);
 }
 
 .c{
     background-image: url(../img/3.webp);
 }
 
+.c:hover{
+    background-image: url(../img/3b.webp);
+}
+
 .d{
     background-image: url(../img/4.webp);
+}
+
+.d:hover{
+    background-image: url(../img/4b.webp);
 }
 
 .e{
     background-image: url(../img/5.webp);
 }
 
+.e:hover{
+    background-image: url(../img/5b.webp);
+}
+
 .f{
     background-image: url(../img/6.webp);
 }
+
+.f:hover{
+    background-image: url(../img/6b.webp);
+}
+
 .etichette{
     height: 95%;
     display: flex;
@@ -118,12 +148,12 @@ li{
     padding: 10px 10px;
 }
 
-.dettaglio{
-   margin-top: 40px;    
+.heart:hover{
+    color: red;
 }
 
-.marchio{
-    
+.dettaglio{
+   margin-top: 40px;    
 }
 
 .modello{
